@@ -23,7 +23,6 @@ function NuevoVideo() {
     setError("");
     setSuccess("");
 
-    // Validar campos requeridos
     if (!formData.titulo || !formData.category || !formData.capa || !formData.link) {
       setError("Todos los campos son obligatorios");
       return;

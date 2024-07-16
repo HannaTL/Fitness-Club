@@ -6,7 +6,7 @@ function Pie() {
     <footer className={styles.Pie}>
       <h2>Desarrollado por Hanna Trejo</h2>
       <section className={styles.logoContainer}>
-        <img src={logo} alt="Logo ALURAFLIX" />
+        <img src={logo} alt="Logo Fitness-Club" />
       </section>
     </footer>
   );

@@ -14,7 +14,6 @@ function AppRoutes() {
       <Container>
       <Routes>
           <Route path="/" element={<Inicio />} />
-          <Route path="/favoritos" element={<Favoritos />} />
           <Route path="/nuevo-video" element={<NuevoVideo />} /> 
         </Routes>
       </Container>
