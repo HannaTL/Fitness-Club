@@ -1,0 +1,31 @@
+.Pie{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 10em;
+  background-color: lightblue;
+}
+
+a{text-decoration: none;}
+
+.logoContainer {
+  width: 150px; 
+  height: 150px; 
+  position: relative;
+  overflow: hidden; 
+}
+
+  
+.Pie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.3); 
+    transform-origin: center; 
+  }
+
+.Pie h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--blanco);
+}
